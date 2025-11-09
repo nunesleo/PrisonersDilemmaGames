@@ -1,0 +1,1 @@
+This a project for our CSC-324: Software architecture and design class. Currently being created by Adarsh, Chloe, Siho and Yash
