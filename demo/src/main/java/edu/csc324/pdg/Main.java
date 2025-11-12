@@ -1,4 +1,4 @@
-package edu.csc324.pgg;
+package edu.csc324.pdg;
 
 public class Main {
     public static void main(String[] args) {
