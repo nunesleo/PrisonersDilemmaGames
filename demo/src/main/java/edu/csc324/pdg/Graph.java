@@ -32,9 +32,9 @@ public class Graph {
         this.adjacency_list.remove(agent);
     }
 
-    public ArrayList getNeighbors(Agent agent) throws Exception {
+    public ArrayList<Agent> getNeighbors(Agent agent) throws Exception {
         if (!this.adjacency_list.containsKey(agent)) {
-            throw new Exception("Can't remove node. Node not found in adjacency_list.");
+            throw new Exception("Can't find node. Node not found in adjacency_list.");
         }
 
         return this.adjacency_list.get(agent);
